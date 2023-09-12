@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://plus.unsplash.com/premium_photo-1694166714598-84ec46225f00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+}
+
+.main{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(137, 146, 154);
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+textarea{
+    padding: 20px;
+    resize: none;
+    border-radius: 10px;
+}
